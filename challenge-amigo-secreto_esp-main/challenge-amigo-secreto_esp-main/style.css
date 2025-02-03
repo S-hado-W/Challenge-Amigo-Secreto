@@ -1,10 +1,10 @@
 :root {
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-tertiary: #444444;
+    --color-button: #FF6F3C;
+    --color-button-hover: #df6d09;
+    --color-text: #FFFFFF;
     --color-white: #FFFFFF;
 }
 
@@ -90,6 +90,8 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    display: flex;
+    gap: 10px;
 }
 
 /* Estilos de entrada de texto */
@@ -122,13 +124,13 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #666666;
 }
 
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
+    color: black;
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
@@ -136,7 +138,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #0eac0e;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -147,10 +149,15 @@ ul {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 10px 40px;
+    padding: 10px 20px;
     color: var(--color-white);
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 16px;   
+    padding: 10px 20px;
+    border: none;
+    gap: 5px;
+    
+    
 }
 
 .button-draw img {
